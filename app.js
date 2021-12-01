@@ -29,6 +29,9 @@ mongoose
         name: "Apple Iphone 13",
         price: 13500,
         qttInStock: 18,
+        reviews: [], // Como esse campo não está definido no Schema, ele vai ser ignorado no momento da inserção
+        category: "Liquidifcador",
+        password: 123,
       });
 
       // Criar vários documentos ao mesmo tempo
